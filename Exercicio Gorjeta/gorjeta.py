@@ -8,8 +8,8 @@ def calcularGorjeta(valorDaConta, porcentagemGorjeta):
 
 
 
-valor_conta = int(input("Digite o valor da conta "))
-porcentagemGorjeta = int(input("Quantos % voce quer pagar de Gorjeta? "))
+valor_conta = float(input("Digite o valor da conta "))
+porcentagemGorjeta = float(input("Quantos % voce quer pagar de Gorjeta? "))
 
 calcularGorjeta(valor_conta, porcentagemGorjeta)
 
