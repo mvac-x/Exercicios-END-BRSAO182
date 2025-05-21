@@ -1,8 +1,8 @@
 
 
-def calcularGorjeta(valorDaCoonta, porcentagemGorjeta):
+def calcularGorjeta(valorDaConta, porcentagemGorjeta):
     
-    gorjeta = (valorDaCoonta * (porcentagemGorjeta / 100))
+    gorjeta = (valorDaConta * (porcentagemGorjeta / 100))
     return print(f"O Valor de gorjeta pago foi: {gorjeta}" )
 
 
