@@ -1,7 +1,3 @@
-senha = input("Digite a senha ou sair: ")
-
-
-
 
 def verificarSenha(senha):
     #tamnho da senha
@@ -13,3 +9,17 @@ def verificarSenha(senha):
     if not any(char.isdigit() for char in senha):
         return False
     return True
+
+while True:
+    senha = input("Digite a senha ou sair: ")
+
+    if senha == "sair":
+        print("Saindo...")
+        break
+
+    if verificarSenha(senha):
+        print("Senha valida")
+        break
+
+    else:
+        print("Senha invalida")        
