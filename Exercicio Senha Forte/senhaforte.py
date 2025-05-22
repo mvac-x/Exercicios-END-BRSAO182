@@ -4,9 +4,12 @@ def verificarSenha(senha):
     if len(senha) < 8:
         print("Senha muito curta")
         return False
-
     #se tem numero 
     if not any(char.isdigit() for char in senha):
+        return False
+    #se tem letra 
+    elif not any(char.isalpha() for char in senha):
+        print("Senha deve conter letras")
         return False
     return True
 
